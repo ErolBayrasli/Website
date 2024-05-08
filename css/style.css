@@ -51,8 +51,8 @@ h1 {
   border: black;
 }
 body{
-  background: rgb(78,77,89);
-  background: linear-gradient(90deg, rgba(78,77,89,1) 0%, rgba(159,154,162,1) 61%, rgba(70,76,78,1) 100%);
+  background: rgb(128,77,127);
+  background: linear-gradient(90deg, rgba(128,77,127,1) 4%, rgba(176,118,174,1) 26%, rgba(197,119,167,1) 52%, rgba(170,99,148,1) 84%);
 }
 .parallax {
   /* The image used */
