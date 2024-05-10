@@ -22,7 +22,7 @@ h1 {
   text-decoration: none;
   font-weight: 700;
 }
-.navbar a {
+/* .navbar a {
   position: relative;
   font-size: 18px;
   color: #3d3a3a;
@@ -44,7 +44,33 @@ h1 {
 
 .navbar a:hover::before {
   width: 100%;
+} */
+
+.nav-item a {
+  position: relative;
+  font-size: 18px;
+  color: #3d3a3a;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
 }
+
+.nav-item a::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  width: 0;
+  left: 0;
+  height: 2px;
+  background: #ffffff;
+  transition: .3s;
+}
+
+.nav-item a:hover::before {
+  width: 100%;
+}
+
+
 
 .img-fluid {
   max-height: 100%;
